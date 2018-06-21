@@ -1,0 +1,155 @@
+body {
+  font-family: "Courgette", cursive;
+  background-color: #eceff1;
+}
+
+@media only screen and (max-width: 360px) {
+  center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center img {
+    padding-left: 150px;
+  }
+  .info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #8e24aa;
+  }
+  #hero-img {
+    border: 0.2em solid black;
+    border-radius: 20% 20% 20% 20%;
+    width: 100%;
+  }
+  #more-info {
+    padding: 20px;
+    color: #8e24aa;
+  }
+  #project-info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #8e24aa;
+  }
+  #project-info img {
+    border: 0.2em solid black;
+    border-radius: 20% 20% 20% 20%;
+    width: 100%;
+    height: 200px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center img {
+    padding-left: 336px;
+    margin-top: 20px;
+  }
+  .info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #8e24aa;
+    font-size: 2em;
+  }
+  #hero-img {
+    background-image: url(/img/Me2.jpg);
+    border: 0.2em solid black;
+    border-radius: 90%;
+    width: 100%;
+  }
+  #more-info {
+    padding: 20px;
+    color: #8e24aa;
+    font-size: 2em;
+    text-align: center;
+  }
+  #project-info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #8e24aa;
+    font-size: 2em;
+  }
+  #project-info img {
+    border: 0.2em solid black;
+    border-radius: 20% 20% 20% 20%;
+    width: 95%;
+    height: 400px;
+    padding-right: 1px;
+  }
+  footer {
+    text-align: center;
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 769px) {
+  center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center img {
+    padding-left: 520px;
+    margin-top: 20px;
+  }
+  body {
+    background-color: #eceff1;
+  }
+  .info {
+    order: 0;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #8e24aa;
+    font-size: 1.5em;
+    width: 100%;
+    z-index: 10;
+  }
+  #hero-img {
+    order: 1;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+  }
+  #more-info {
+    padding: 20px;
+    color: #8e24aa;
+    font-size: 2em;
+    text-align: center;
+    order: 2;
+  }
+  #project-info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    color: #8e24aa;
+    font-size: 2em;
+  }
+  #project-info img {
+    order: 3;
+    border: 0.2em solid black;
+    border-radius: 20% 20% 20% 20%;
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 2em;
+  }
+}
